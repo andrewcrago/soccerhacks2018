@@ -53,47 +53,96 @@
 
       <div class="starter-template">
         <h1>Modeling decision making in the final third</h1>
-        <p class="lead">A gaussian process for decision making, or How to determine your team’s JR Smith. Sample data.</p>
+        <p class="lead">A gaussian process for decision making. Sample data.</p>
       </div>
 <div class="container">
     <div class="row">
         <div class="col-12">
+            
+ 
 <!--Table-->
 
-<table id="example" class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">xG</th>
-      <th scope="col">Visual</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>#</td>
-      <td><a href="#" data-toggle="modal" data-target="#modal1"><i class="fas fa-search"></i> Details</a></td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>#</td>
-      <td><a href="#" data-toggle="modal" data-target="#modal2"><i class="fas fa-search"></i> Details</a></td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>#</td>
-      <td><a href="#" data-toggle="modal" data-target="#modal3"><i class="fas fa-search"></i> Details</a></td>
-    </tr>
-  </tbody>
-</table>
+<table id="example" class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Player</th>
+<th title="Field #2">Shots</th>
+<th title="Field #3">xShot</th>
+<th title="Field #4">Shots-xShot</th>
+<th title="Field #5">Total xG Added</th>
+<th title="Field #6">Decision Projection</th>
+</tr></thead>
+<tbody><tr>
+<td>Sebastian Giovinco</td>
+<td align="right">53</td>
+<td align="right">36.82</td>
+<td align="right">16.18</td>
+<td align="right">2.1</td>
+    <td><a href="#" data-toggle="modal" data-target="#modal1"><i class="fas fa-search"></i> View</a></td>
+</tr>
+<tr>
+<td>Federico Higuaín</td>
+<td align="right">17</td>
+<td align="right">15.11</td>
+<td align="right">1.89</td>
+<td align="right">0.66</td>
+    <td><a href="#" data-toggle="modal" data-target="#modal2"><i class="fas fa-search"></i> View</a></td>
+</tr>
+<tr>
+<td>Alphonso Davies</td>
+<td align="right">12</td>
+<td align="right">14.83</td>
+<td align="right">-2.83</td>
+<td align="right">0.53</td>
+    <td><a href="#" data-toggle="modal" data-target="#modal3"><i class="fas fa-search"></i> View</a></td>
+</tr>
+<tr>
+<td>Miguel Almirón</td>
+<td align="right">58</td>
+<td align="right">45.57</td>
+<td align="right">12.43</td>
+<td align="right">2.5</td>
+    <td><a href="#" data-toggle="modal" data-target="#modal4"><i class="fas fa-search"></i> View</a></td>
+</tr>
+<tr>
+<td>Megan Rapinoe</td>
+<td align="right">48</td>
+<td align="right">38.59</td>
+<td align="right">9.41</td>
+<td align="right">2</td>
+    <td><a href="#" data-toggle="modal" data-target="#modal5"><i class="fas fa-search"></i> View</a></td>
+</tr>
+<tr>
+<td>Abby Wambach</td>
+<td align="right">28</td>
+<td align="right">35.59</td>
+<td align="right">-7.59</td>
+<td align="right">0.41</td>
+    <td><a href="#" data-toggle="modal" data-target="#modal6"><i class="fas fa-search"></i> View</a></td>
+</tr>
+<tr>
+<td>Zlatan Ibrahimovic</td>
+<td align="right">28</td>
+<td align="right">32.95</td>
+<td align="right">-4.95</td>
+<td align="right">0.95</td>
+    <td><a href="#" data-toggle="modal" data-target="#modal7"><i class="fas fa-search"></i> View</a></td>
+</tr>
+<tr>
+<td>Valeri Qazaishvili</td>
+<td align="right">33</td>
+<td align="right">20.76</td>
+<td align="right">12.24</td>
+<td align="right">1.7</td>
+    <td><a href="#" data-toggle="modal" data-target="#modal8"><i class="fas fa-search"></i> View</a></td>
+</tr>
+<tr>
+<td>Gyasi Zardes</td>
+<td align="right">33</td>
+<td align="right">35.82</td>
+<td align="right">-2.82</td>
+<td align="right">1.61</td>
+    <td><a href="#" data-toggle="modal" data-target="#modal9"><i class="fas fa-search"></i> View</a></td>
+</tr>
+</tbody></table>
 <!--Table-->
         </div>
      </div>     
@@ -105,13 +154,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 1 title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Sebastian Giovinco</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="lbj.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/Giovinco.png" class="img-fluid" alt="Responsive image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -127,13 +176,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 2 title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Federico Higuaín</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="lbj.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/Higuain.png" class="img-fluid" alt="Responsive image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -148,13 +197,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 3 title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Alphonso Davies</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="lbj.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/Davies.png" class="img-fluid" alt="Responsive image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -169,13 +218,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 4 title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Miguel Almirón</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="lbj.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/Almiron.png" class="img-fluid" alt="Responsive image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -190,13 +239,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 4 title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Megan Rapinoe</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="lbj.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/Rapinoe.png" class="img-fluid" alt="Responsive image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -211,13 +260,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 4 title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Abby Wambach</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="lbj.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/Wambach.png" class="img-fluid" alt="Responsive image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -232,13 +281,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 4 title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Zlatan Ibrahimovic</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="lbj.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/zlatan.png" class="img-fluid" alt="Responsive image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -253,13 +302,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 4 title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Valeri Qazaishvili</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="lbj.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/Qazaishvili.png" class="img-fluid" alt="Responsive image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -274,13 +323,13 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal 4 title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Gyasi Zardes</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="lbj.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/Zardes.png" class="img-fluid" alt="Responsive image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -310,7 +359,11 @@
   </div>
 </div>
 <!-- end Modal 10-->  
-        
+      <!-- FOOTER -->
+      <footer class="container" style="margin-top: 200px;">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>US Soccer Hackathon 2018</p>
+      </footer>        
         </main>
         
 </body>
