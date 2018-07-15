@@ -1,7 +1,7 @@
 # soccerhacks2018
 
 The Team
-Gradient Boosting Raheems: Andrew Crago, Benjamin Harrison, Eliot McKinley, Kevin Minkus, Andrew Smith
+Andrew Crago, Benjamin Harrison, Eliot McKinley, Kevin Minkus, Andrew Smith
 
 Technology
 Built with Python and R. Bootstrap frontend.
